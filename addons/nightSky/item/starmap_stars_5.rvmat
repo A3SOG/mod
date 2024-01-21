@@ -1,0 +1,15 @@
+
+#define _ARMA_
+
+ambient[] = {0,0,0,1};
+diffuse[] = {0,0,0,1};
+forcedDiffuse[] = {"9/80*15","9/80*15","9/80*15",1};
+emmisive[] = {"9/80*15","9/80*15","9/80*15",0.0};
+specular[] = {0,0,0,1};
+specularPower = 0;
+PixelShaderID = "Normal";
+VertexShaderID = "Basic";
+renderFlags[] = {"NoZWrite","AddBlend","NoTiWrite"};
+fogMode = "fogSky";
+mainLight = "None";
+

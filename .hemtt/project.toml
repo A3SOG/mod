@@ -1,0 +1,16 @@
+name = "SOG Mod"
+author = "SOG"
+prefix = "sog_mod"
+mainprefix = "z"
+
+[files]
+include = [
+    "mod.cpp",
+    "sog_mod_version.json",
+    "*.paa",
+    "keys/*",
+    "userconfig/**/*"
+]
+
+[version]
+git_hash = 0 # Disabled

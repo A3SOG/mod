@@ -1,0 +1,38 @@
+ambient[] = {0.77779216,0.77796757,0.77800035,1};
+diffuse[] = {0.77779216,0.77796757,0.77800035,1};
+forcedDiffuse[] = {0,0,0,1};
+emmisive[] = {0,0,0,1};
+specular[] = {0,0,0,1};
+specularPower=0;
+PixelShaderID = "NormalMapDetailSpecularDIMap";
+VertexShaderID = "NormalMap";
+class Stage1 {
+	texture = "z\sog_mod\addons\phone\item\sog_mobile_nohq.paa";
+	uvSource = "tex";
+	class uvTransform {
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,1};
+		pos[] = {0,0,0};
+	};
+};
+class Stage2 {
+	texture = "z\sog_mod\addons\phone\item\sog_mobile_dt.paa";
+	uvSource = "tex";
+	class uvTransform {
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,1};
+		pos[] = {0,0,0};
+	};
+};
+class Stage3 {
+	texture = "z\sog_mod\addons\phone\item\sog_mobile_smdi.paa";
+	uvSource = "tex";
+	class uvTransform {
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,1};
+		pos[] = {0,0,0};
+	};
+};
