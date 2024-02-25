@@ -25,7 +25,7 @@ addMissionEventHandler ["Draw3D", {
 
 	for "_i" from 1 to (_coef mod 15) do {
 		drop [ 
-			["\z\sog_mod\addons\nightSky\item\starmap_milky_4k.p3d", 1, 0, 1, 0], 
+			["\z\sog\addons\nightSky\item\starmap_milky_4k.p3d", 1, 0, 1, 0], 
 			"", "SpaceObject", 1, diag_deltaTime * accTime * 5, 
 			positionCameraToWorld [0,0,viewDistance*0.01], 
 			[0,0,0], 
@@ -52,7 +52,7 @@ addMissionEventHandler ["Draw3D", {
 		];
 
 		drop [ 
-			["\z\sog_mod\addons\nightSky\item\starmap_stars_4k.p3d", 1, 0, 1, 0], 
+			["\z\sog\addons\nightSky\item\starmap_stars_4k.p3d", 1, 0, 1, 0], 
 			"", "SpaceObject", 1, diag_deltaTime * accTime * 5, 
 			positionCameraToWorld [0,0,viewDistance*0.01], 
 			[0,0,0], 
@@ -80,7 +80,7 @@ addMissionEventHandler ["Draw3D", {
 	};
 	for "_i" from 15 to _coef step 15 do {
 		drop [ 
-			["\z\sog_mod\addons\nightSky\item\starmap_milky_4k_5.p3d", 1, 0, 1, 0], 
+			["\z\sog\addons\nightSky\item\starmap_milky_4k_5.p3d", 1, 0, 1, 0], 
 			"", "SpaceObject", 1, diag_deltaTime * accTime * 5, 
 			positionCameraToWorld [0,0,viewDistance*0.01], 
 			[0,0,0], 
@@ -107,7 +107,7 @@ addMissionEventHandler ["Draw3D", {
 		];
 
 		drop [ 
-			["\z\sog_mod\addons\nightSky\item\starmap_stars_4k_5.p3d", 1, 0, 1, 0], 
+			["\z\sog\addons\nightSky\item\starmap_stars_4k_5.p3d", 1, 0, 1, 0], 
 			"", "SpaceObject", 1, diag_deltaTime * accTime * 5, 
 			positionCameraToWorld [0,0,viewDistance*0.01], 
 			[0,0,0], 

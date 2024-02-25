@@ -17,7 +17,7 @@ class CfgPatches {
 // information on the whole mod (only needed once)
 class CfgMods {
     class PREFIX {
-        dir = "@sog_mod";
+        dir = "@sog";
         name = "SOG Mod";
         author = "SOG";
         picture         = "title_co.paa";       // Picture displayed from the expansions menu. Optimal size is 2048x1024

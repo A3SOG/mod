@@ -1,5 +1,5 @@
 #define MAINPREFIX z
-#define PREFIX sog_mod
+#define PREFIX sog
 
 #include "script_version.hpp"
 

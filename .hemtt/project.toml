@@ -1,6 +1,6 @@
 name = "SOG Mod"
 author = "SOG"
-prefix = "sog_mod"
+prefix = "sog"
 mainprefix = "z"
 
 [files]
