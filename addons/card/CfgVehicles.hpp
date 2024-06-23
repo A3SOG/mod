@@ -15,6 +15,13 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QUOTE(PATHTOF(item\images\BankCard_01_co.paa))};
     };
 
+    class Man;
+	class CAManBase: Man {
+		class Eventhandlers;
+		class ACE_Actions: ACE_Actions {};
+		class ACE_SelfActions: ACE_SelfActions {};
+	};
+
     #include "configs\airforce\vehicles.hpp"
     #include "configs\army\vehicles.hpp"
     #include "configs\banks\vehicles.hpp"

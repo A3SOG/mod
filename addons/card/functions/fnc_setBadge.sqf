@@ -17,11 +17,9 @@
 */
 params ["_location"];
 
-{
-    private _idCardClassname = _x;
-    
-    if (["SOG_Dress_ID_Card", _idCardClassname] call BIS_fnc_inString) then {
-        private _seperator = _idCardClassname splitString "_";
+{    
+    if ("SOG_Dress_ID_Card" in _x) then {
+        private _seperator = _x splitString "_";
         private _cardType = _seperator select 3;
         private _affliation = _seperator select 5;
         private _branch = _seperator select 6;
@@ -37,7 +35,7 @@ params ["_location"];
         if !(_idBadgeClassname in (backpack player)) then {
             removeBackpack player;
             player addBackpack _idBadgeClassname;
-            hint format ["ID badge %1 assigned based on ID card %2", _idBadgeClassname, _idCardClassname];
+            // hint format ["ID badge %1 assigned based on ID card %2", _idBadgeClassname, _x];
         };
     };
-} forEach (items player);
+} count (items player);
